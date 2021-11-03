@@ -2,6 +2,7 @@
   "name": "desafio4",
   "private": true,
   "scripts": {
+    "commit":"git-cz",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -14,6 +15,7 @@
     "prettier": "^2.4.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
@@ -21,6 +23,8 @@
     "@types/react": "17.0.33",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
     "@typescript-eslint/parser": "^5.3.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "12.0.2",
     "eslint-config-standard": "^16.0.3",
@@ -29,5 +33,10 @@
     "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-react": "^7.26.1",
     "typescript": "4.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
