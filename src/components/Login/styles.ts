@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import image from "next/image";
 import Link from "next/link";
 export const Contaier = styled.div`
   width: 50%;
@@ -10,7 +9,7 @@ export const Contaier = styled.div`
   position: absolute;
   right: 0px;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 90%;
   }
 `;
 export const Content = styled.div`
@@ -20,7 +19,7 @@ export const Content = styled.div`
   grid-template-rows: 7px 69px 41px 60px 41px 60px 70px 70px 152px;
   @media (max-width: 768px) {
     grid-template-columns: 20rem;
-    margin-right: 0px;
+    margin-right: 60px;
     grid-template-rows: 7px 69px 41px 60px 41px 60px 70px 70px 112px;
   }
 `;
@@ -140,3 +139,12 @@ export const BoxCadastro = styled.div`
   @media (max-width: 768px) {
   }
 `;
+export const BoxButton=styled.div`
+z-index: 1;
+`
+export const BoxIcon=styled.div`
+position: absolute;
+z-index: 2;
+margin-left: 70px;
+margin-top: 15px;
+`

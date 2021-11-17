@@ -9,7 +9,6 @@ export const Contaier = styled.div`
   align-items: center;
   position: absolute;
   left: 0px;
-
   @media (max-width: 768px) {
     display: none;
   }

@@ -16,6 +16,8 @@ import {
   MyButtonLogin,
   ButtonGoogleLogin,
   BoxCadastro,
+  BoxButton,
+  BoxIcon,
 } from "./styles";
 
 export function Login() {
@@ -38,10 +40,15 @@ export function Login() {
           </BoxLink>
         </TextBox>
         <MyButtonLogin>Entrar</MyButtonLogin>
+        <BoxButton>
+          <BoxIcon>
+        <FcGoogle />
+        </BoxIcon>
         <ButtonGoogleLogin>
-          <FcGoogle />
-          Ou faça login com o Google
+          
+           Ou faça login com o Google
         </ButtonGoogleLogin>
+        </BoxButton>
         <BoxCadastro>
           <MyP>
             Não tem conta? <MyLink href="/">Cadastre-se</MyLink>
