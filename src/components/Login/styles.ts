@@ -18,9 +18,9 @@ export const Content = styled.div`
   margin-right: 6.25rem;
   grid-template-rows: 7px 69px 41px 60px 41px 60px 70px 70px 152px;
   @media (max-width: 768px) {
-    grid-template-columns: 20rem;
-    margin-right: 60px;
-    grid-template-rows: 7px 69px 41px 60px 41px 60px 70px 70px 112px;
+    grid-template-columns: 18rem;
+    margin-right:90px;
+    grid-template-rows: 7px 69px 41px 60px 41px 60px 69px 70px 112px;
   }
 `;
 export const Welcome = styled.h1`
@@ -115,7 +115,7 @@ export const MyButtonLogin = styled.button`
   color: white;
   @media (max-width: 768px) {
     width: 19rem;
-    margin-left: 1.5rem;
+    margin-left: 1.4rem;
   }
 `;
 export const ButtonGoogleLogin = styled.button`
