@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Link from "next/link";
 export const Contaier = styled.div`
   width: 50%;
-  height: 42.5rem;
+  height: 40.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,8 @@ export const Contaier = styled.div`
 `;
 export const Content = styled.div`
   display: grid;
+  margin-top: 213px;
+  
   grid-template-columns: 20rem;
   margin-right: 6.25rem;
   grid-template-rows: 7px 69px 41px 60px 41px 60px 70px 70px 152px;
@@ -99,7 +101,7 @@ export const BoxLink = styled.div`
   color: #2b6cb0;
   font-family: Lato;
   font-size: 14px;
-
+  cursor: pointer;
   font-weight: 400;
   line-height: 17px;
 
@@ -113,6 +115,11 @@ export const MyButtonLogin = styled.button`
   width: 21.875rem;
   height: 3.125rem;
   color: white;
+  border: none;
+  cursor: pointer;
+  :hover{
+    border: solid 1px #fff;
+  }
   @media (max-width: 768px) {
     width: 19rem;
     margin-left: 1.4rem;
@@ -124,6 +131,11 @@ export const ButtonGoogleLogin = styled.button`
   width: 21.875rem;
   height: 3.125rem;
   color: white;
+  border: none;
+  cursor: pointer;
+  :hover{
+    border: solid 1px #fff;
+  }
   @media (max-width: 768px) {
     width: 19rem;
     margin-left: 1.5rem;
@@ -133,8 +145,10 @@ export const BoxCadastro = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -100px;
   a {
     color: #2b6cb0;
+    cursor: pointer;
   }
   @media (max-width: 768px) {
   }

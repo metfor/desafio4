@@ -2,7 +2,7 @@ import styled from "styled-components";
 import image from "next/image";
 export const Contaier = styled.div`
   width: 50%;
-  height: 680px;
+  height:715px;
   background: #f7fafc;
   display: flex;
   justify-content: center;
